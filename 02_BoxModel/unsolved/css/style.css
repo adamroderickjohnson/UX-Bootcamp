@@ -1,3 +1,7 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* Header Styles */
 .header{
  height: 250px;
@@ -9,6 +13,8 @@
 }
 #pageTopic{
     text-align: center;
+    font-size: 14px;
+    font-weight: 900;
 }
 /* Primary Color */
 .colorContainer{
@@ -28,12 +34,69 @@
     border-bottom-right-radius: 7px;
     border-bottom-left-radius: 7px;
 }
+/* Colors */
+
+.darkBlue{
+    background-color: #333366;
+}
+.darkGrey{
+    background-color: #545454;
+}
+.lightGrey{
+    background-color: #e3e3e3;
+}
+.white{
+    background-color: #FFFFFF;
+}
+.lightBlue{
+    background-color: #12A0f6;
+}
+.red{
+    background-color: #f84848;
+}
+.orange{
+    background-color: #fc7705;
+}
+.lightGreen{
+    background-color: #8abe48;
+}
+
 /* Typography CSS */
+
 .type-container{
     display: inline-block;
     margin: 20px;
 }
+.large{
+    font-size: 66px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.light{
+    font-weight: 100;
+}
+.regular{
+    font-weight: 500;
+}
+.bold{
+    font-weight: 700;
+}
 
+.typography h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.typography h2{
+        font-size: 42px;
+        font-weight: 700;
+ }
+ .typography h3{
+    font-size: 34px;
+    font-weight: 700;
+}
+.typography h4{
+    font-size: 26px;
+}
 /* UI Elements */
 
 .button{
@@ -44,4 +107,38 @@
     text-align: center;
     color: white;
     outline: 1px solid red;
+    font: 14px;
+}
+.primary{
+    background-color: #2b459a;
+}
+.success {
+    background-color: #8abe48;
+}
+.danger{
+    background-color: #f84848;
+}
+.warning{
+    background-color: #fc7705;
+}
+.info{
+    background-color: #0099FA;
+}
+.primaryActive{
+    background-color: #3a66b7;
+}
+.successActive{
+    background-color: #668c35;
+}
+.dangerActive{
+    background-color: #Ad4848;
+}
+.warningActive{
+    background-color: #ba7a43;
+}
+.infoActive{
+    background-color: #4386ba;
+}
+.sectionHead{
+    border-bottom: 8px solid #DDDDDD;
 }
